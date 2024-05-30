@@ -1,7 +1,7 @@
 {
-    "@context": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#",
+    "@context": ["https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#"],
     "euConformityDeclarationDocument": {
-      "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#euConformityDeclarationDocument",
+      "@id": "http://schema.org/url", 
       "@type": "@id",
       "description": "URI of the EU declaration of conformity signed by responsible economic operators to declare compliance with the regulatory requirements in the context of the market conformity assessment procedure and assume full responsibility."
     }
