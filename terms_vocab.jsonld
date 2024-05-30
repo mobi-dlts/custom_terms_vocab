@@ -4,5 +4,10 @@
       "@id": "http://schema.org/url", 
       "@type": "@id",
       "description": "URI of the EU declaration of conformity signed by responsible economic operators to declare compliance with the regulatory requirements in the context of the market conformity assessment procedure and assume full responsibility."
+    },
+    "separateCollectionSymbol": {
+      "@id": "http://schema.org/url", 
+      "@type": "@id",
+      "description": "URI to the separate collection' or 'WEEE label' indicating that a product should not be discarded as unsorted waste but must be sent to separate collection facilities for recovery and recycling."
     }
 }
