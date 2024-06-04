@@ -9,5 +9,135 @@
       "@id": "http://schema.org/url", 
       "@type": "@id",
       "description": "URI to the separate collection' or 'WEEE label' indicating that a product should not be discarded as unsorted waste but must be sent to separate collection facilities for recovery and recycling."
+    },
+    "cadmiumLeadSymbols": {
+      "@id": "http://schema.org/url", 
+      "@type": "@id",
+      "description": "URI to the image of Cadmium and lead symbols indicating the metal is contained in the battery above a defined threshold."
+    },
+    "certifiedUsableBatteryEnergy": {
+      "@id": "https://schema.org/Integer", 
+      "@type": "@id",
+      "description": "The energy supplied by the battery from the beginning of the test procedure used for certification until the applicable break-off criterion of the test procedure used for certification is reached. Unit of Measure is Kilo Watt Hour (kWh)."
+    },
+    "initialSelfDischargingRate": {
+      "@id": "https://schema.org/Number", 
+      "@type": "@id",
+      "description": "Initial self-discharge in % of capacity per unit of time in defined conditions (temperature range etc) as pre-use metric."
+    },
+     "ratedCapacity": {
+        "@id": "https://schema.org/Integer", 
+        "@type": "@id",
+        "description": "The total number of ampere-hours (Ah) that can be withdrawn from a fully charged battery under specific conditions. Unit of Measure is Ampere Hour (Ah)."    
+    },
+    "nominalVoltage": {
+        "@id": "https://schema.org/Integer", 
+        "@type": "@id",
+        "description": "The voltage value assigned to an electric circuit or system to designate its voltage class. Unit of Measure is Volt."    
+    },
+    "minimumVoltage": {
+        "@id": "https://schema.org/Integer", 
+        "@type": "@id",
+        "description": "Minimum voltage the battery is rated for. Unit of Measure is Volt."
+    },
+    "maximumVoltage": {
+        "@id": "https://schema.org/Integer", 
+        "@type": "@id",
+        "description": "Maximum voltage the battery is rated for. Unit of Measure is Volt."
+    },
+     "originalPowerCapability": {
+        "@id": "https://schema.org/Integer", 
+        "@type": "@id",
+        "description": "Original power capability (in Watts) and limits, with temperature range when relevant. Unit of Measure is Watt."
+    },
+    "maxPermittedBatteryPower": {
+      "@id": "https://schema.org/Integer", 
+      "@type": "@id",
+      "description": "Maximum permitted power the battery is rated for, includes the data relevant for 'power limits'. Unit of Measure is Watt."
+    },
+    "ratioNominalAllowedPower": {
+      "@id": "https://schema.org/Integer", 
+      "@type": "@id",
+      "description": "Ratio between nominal allowed battery power (W) and battery energy (Wh). Unit of Measure is Watts per Hour."
+    },
+    "initialRoundTripEnergyEfficiency": {
+      "@id": "https://schema.org/Integer", 
+      "@type": "@id",
+      "description": "The ratio of the net energy delivered by a battery during a discharge test to the total energy required to restore the initial State of Charge by a standard charge."
+    },
+    "roundTripEnergyEfficiency50pCycleLife": {
+      "@id": "https://schema.org/Integer", 
+      "@type": "@id",
+      "description": "Round trip energy efficiency at 50% of cycle-life; measured at 50% of cycle life as determined in a pre-use standardized measurement."
+    },
+    "initialInternalResistanceCellLevel": {
+      "@id": "https://schema.org/Integer", 
+      "@type": "@id",
+      "description": "Initial (pre-use) internal resistance on battery cell level. Unit of Measure is Milliohm."
+    },
+    "maxInitialInternalResistancePackLevel": {
+      "@id": "https://schema.org/Integer", 
+      "@type": "@id",
+      "description": "Initial (pre-use) internal resistance on battery pack level. Unit of Measure is Milliohm."
+    },
+    "maxInitialInternalResistanceModuleLevel": {
+      "@id": "https://schema.org/Integer", 
+      "@type": "@id",
+      "description": "Initial (pre-use) internal resistance on battery module level. Unit of Measure is Milliohm."
+    },
+    "expectedLifetime": {
+      "@id": "https://schema.org/Integer", 
+      "@type": "@id",
+      "description": "Expected battery lifetime expressed in cycles, and reference test used. Unit of Measure is Number of Cycles."
+    },
+    "cRateRelevantCycleLifeTest": {
+      "@id": "https://schema.org/Integer", 
+      "@type": "@id",
+      "description": "Measurement parameter: Applied charge and discharge rate (C-rate) of relevant cycle-life test."
+    },
+    "soceExhaustionThreshold": {
+      "@id": "https://schema.org/Integer", 
+      "@type": "@id",
+      "description": "Minimum percentage of SOCE, above which the battery is still considered operational as EV battery in its current life."
+    },
+    "batteryWarrantyPeriod": {
+      "@id": "https://schema.org/Integer", 
+      "@type": "@id",
+      "description": "Warranty period of the battery."
+    },
+    "idleStateTemperatureRangeUB": {
+      "@id": "https://schema.org/Integer", 
+      "@type": "@id",
+      "description": "Upper boundary of the surrounding temperature range, which the battery can safely withstand. Unit of Measure is Celsius."
+    },
+    "totalEnergy": {
+      "@id": "https://schema.org/Integer", 
+      "@type": "@id",
+      "description": "Total amount of energy when charged to 100%. Unit of Measure is KiloWatt Hour."
+    },
+    "maxChargeRate": {
+      "@id": "https://schema.org/Integer", 
+      "@type": "@id",
+      "description": "The highest sustainable amount of power the battery is capable of capturing. Unit of Measure is Kilowatt."
+    },
+    "maxDischargeRate": {
+      "@id": "https://schema.org/Integer", 
+      "@type": "@id",
+      "description": "The maximum power at which thebattery can be discharged continuously. Unit of Measure is Kilowatt."
+    },
+    "operationalTempUB": {
+      "@id": "https://schema.org/Integer", 
+      "@type": "@id",
+      "description": "Upper boundary of the surrounding temperature range, which the battery can safely operate. Unit of Measure is Celsius."
+    },
+    "operationalTempLB": {
+      "@id": "https://schema.org/Integer", 
+      "@type": "@id",
+      "description": "Lower boundary of the surrounding temperature range, which the battery can safely operate. Unit of Measure is Celsius."
+    },
+    "storageHumidity": {
+      "@id": "https://schema.org/Integer", 
+      "@type": "@id",
+      "description": "Manufacturer recommended humidty for storing the battery."
     }
 }
