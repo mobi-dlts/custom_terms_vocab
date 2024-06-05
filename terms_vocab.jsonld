@@ -139,5 +139,60 @@
       "@id": "https://schema.org/Integer", 
       "@type": "@id",
       "description": "Manufacturer recommended humidty for storing the battery."
+    },
+    "criticalRawMaterials": {
+      "@id": "https://schema.org/ItemList", 
+      "@type": "@id",
+      "description": "Critical raw materials contained in the battery above a concentration of 0.1 % weight by weight."
+    },
+    "batteryChemistry": {
+      "@id": "https://schema.org/ItemList", 
+      "@type": "@id",
+      "description": "Composition of a battery in general terms by specifying the cathode and anode active material as well as electrolyte."
+    },
+    "cathodeAnodeElectrolyteNames": {
+      "@id": "https://schema.org/ItemList", 
+      "@type": "@id",
+      "description": "Name of the materials =  {cathode material, anode material, electrolyte material} in this order."
+    },
+    "relatedIDsCathodeAnodeElectrolytes": {
+      "@id": "https://schema.org/ItemList", 
+      "@type": "@id",
+      "description": "Related identifiers of the cathode, anode, electrolyte materials = {identier of cathode, identifier of anode, identifier of electrolyte}"
+    },
+    "weightCathodeAnodeElectrolytes": {
+      "@id": "https://schema.org/ItemList", 
+      "@type": "@id",
+      "description": "Total weights of the cathode, anode, electrolyte materials in the pack =  {cathode weight in kg, anode weight in kg, electrolyte weight in kg}"
+    },
+    "hazardousSubstancesNames": {
+      "@id": "https://schema.org/ItemList", 
+      "@type": "@id",
+      "description": "Name of hazardous substances other than mercury, cadmium or lead = {substance 1, substance 2, ... }"
+    },
+    "hazardSubstancesClasses": {
+      "@id": "https://schema.org/ItemList", 
+      "@type": "@id",
+      "description": "The class hazardous substances other than mercury, cadmium or lead = {class 1, class 2, ... }"
+    },
+    "relatedIDHazardousSubstances": {
+      "@id": "https://schema.org/ItemList", 
+      "@type": "@id",
+      "description": "The identifier hazardous substances other than mercury, cadmium or lead = {identier 1, identifier 2, ...}"
+    },
+    "locationHazardousSubstances": {
+      "@id": "https://schema.org/ItemList", 
+      "@type": "@id",
+      "description": "The location of hazardous substances other than mercury, cadmium or lead on the battery = {substance 1: location 1, substance 2: location 2, .... }"
+    },
+    "concentrationRangeHazardousSubstances": {
+      "@id": "https://schema.org/ItemList", 
+      "@type": "@id",
+      "description": "The concentration range of hazardous substances other than mercury, cadmium or lead = substance 1{lower bound, upperbound}, substance 2{lowerbound, upperbound}."
+    },
+    "substancesImpactDescriptions": {
+      "@id": "https://schema.org/ItemList", 
+      "@type": "@id",
+      "description": "Description of the impact of substances on environment, health, etc."
     }
 }
