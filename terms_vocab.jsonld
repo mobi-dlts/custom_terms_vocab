@@ -194,5 +194,20 @@
       "@id": "https://schema.org/ItemList", 
       "@type": "@id",
       "description": "Description of the impact of substances on environment, health, etc."
+    },
+    "manualBatteryDisassemblyDismantling": {
+      "@id": "https://schema.org/url", 
+      "@type": "@id",
+      "description": "link to battery disassembly etc."
+    },
+    "dueDiligenceReport": {
+      "@id": "https://schema.org/url", 
+      "@type": "@id",
+      "description": "link to due dilligence report."
+    },
+    "sustainabilityReport": {
+      "@id": "https://schema.org/url", 
+      "@type": "@id",
+      "description": "link to sustainability report."
     }
 }
