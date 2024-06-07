@@ -214,5 +214,40 @@
       "@id": "https://schema.org/url", 
       "@type": "@id",
       "description": "link to sustainability report."
+    },
+    "infoCollectionTakebackReuseRepurposingRecycling": {
+      "@id": "https://schema.org/url", 
+      "@type": "@id",
+      "description": "link to sustainability report."
+    },
+    "roleEndUsersContributingCollectionWasteBatteries": {
+      "@id": "https://schema.org/url", 
+      "@type": "@id",
+      "description": "link to sustainability report."
+    },
+    "roleEndUsersContributingWastePrevention": {
+      "@id": "https://schema.org/url", 
+      "@type": "@id",
+      "description": "link to sustainability report."
+    },
+    "extinguishingAgent": {
+      "@id": "https://schema.org/Text", 
+      "@type": "@id",
+      "description": "link to sustainability report."
+    },
+    "PreConsumerRecycledNickelShare": {
+      "@id": "https://schema.org/Number", 
+      "@type": "@id",
+      "description": "link to sustainability report."
+    },
+    "preConsumerRecycledCobaltShare": {
+      "@id": "https://schema.org/Number", 
+      "@type": "@id",
+      "description": "link to sustainability report."
+    },
+    "postConsumerRecycledCobaltShare": {
+      "@id": "https://schema.org/Number", 
+      "@type": "@id",
+      "description": "link to sustainability report."
     }
 }
