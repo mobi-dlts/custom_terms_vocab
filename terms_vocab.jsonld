@@ -209,5 +209,10 @@
       "@id": "https://schema.org/url", 
       "@type": "@id",
       "description": "link to sustainability report."
+    },
+    "carbonFootprintShareEndOfLifeRecycling": {
+      "@id": "https://schema.org/url", 
+      "@type": "@id",
+      "description": "link to sustainability report."
     }
 }
