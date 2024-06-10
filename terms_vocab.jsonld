@@ -195,6 +195,21 @@
       "@type": "@id",
       "description": "Description of the impact of substances on environment, health, etc."
     },
+    "carbonFootprint": {
+      "@id": "https://schema.org/Number", 
+      "@type": "@id",
+      "description": "The carbon footprint of the battery over its expected service life. Unit of Measure is kg/kWh."
+    },
+     "carbonFootprintShareDistribution": {
+      "@id": "https://schema.org/Number", 
+      "@type": "@id",
+      "description": "The carbon footprint of the battery over its expected service life in distribution stage."
+    },
+    "carbonFootprintShareEndOfLifeRecycling": {
+      "@id": "https://schema.org/Number", 
+      "@type": "@id",
+      "description": "The carbon footprint of the battery over its expected service life in end of life and recycling stage."
+    },
     "manualBatteryDisassemblyDismantling": {
       "@id": "https://schema.org/url", 
       "@type": "@id",
@@ -209,12 +224,7 @@
       "@id": "https://schema.org/url", 
       "@type": "@id",
       "description": "link to sustainability report."
-    },
-    "carbonFootprintShareEndOfLifeRecycling": {
-      "@id": "https://schema.org/url", 
-      "@type": "@id",
-      "description": "link to sustainability report."
-    },
+    },     
     "infoCollectionTakebackReuseRepurposingRecycling": {
       "@id": "https://schema.org/url", 
       "@type": "@id",
