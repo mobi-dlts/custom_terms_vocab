@@ -210,12 +210,7 @@
       "@type": "@id",
       "description": "The carbon footprint of the battery over its expected service life in end of life and recycling stage."
     },
-    "manualBatteryDisassemblyDismantling": {
-      "@id": "https://schema.org/url", 
-      "@type": "@id",
-      "description": "link to battery disassembly etc."
-    },
-    "dueDiligenceReport": {
+     "dueDiligenceReport": {
       "@id": "https://schema.org/url", 
       "@type": "@id",
       "description": "link to due dilligence report."
@@ -224,40 +219,70 @@
       "@id": "https://schema.org/url", 
       "@type": "@id",
       "description": "link to sustainability report."
-    },     
-    "infoCollectionTakebackReuseRepurposingRecycling": {
-      "@id": "https://schema.org/url", 
-      "@type": "@id",
-      "description": "link to sustainability report."
     },
-    "roleEndUsersContributingCollectionWasteBatteries": {
-      "@id": "https://schema.org/url", 
+    "postalAddressSparePartsSources": {
+      "@id": "https://schema.org/ItemList", 
       "@type": "@id",
-      "description": "link to sustainability report."
+      "description": "Postal address of sources for replacement spares."
     },
-    "roleEndUsersContributingWastePrevention": {
-      "@id": "https://schema.org/url", 
+    "emailsSparePartsSources": {
+      "@id": "https://schema.org/ItemList", 
       "@type": "@id",
-      "description": "link to sustainability report."
+      "description": "E-mail address of supplier for spare parts."
+    },
+    "sparePartsSources": {
+      "@id": "https://schema.org/ItemList", 
+      "@type": "@id",
+      "description": "URI of supplier for spare parts."
     },
     "extinguishingAgent": {
       "@id": "https://schema.org/Text", 
       "@type": "@id",
       "description": "link to sustainability report."
     },
-    "PreConsumerRecycledNickelShare": {
+     "preConsumerRecycledNickelShare": {
       "@id": "https://schema.org/Number", 
       "@type": "@id",
-      "description": "link to sustainability report."
+      "description": "Share of nickel recovered from battery manufacturing waste present in active materials for each battery model per year and per manufacturing plant."
     },
     "preConsumerRecycledCobaltShare": {
       "@id": "https://schema.org/Number", 
       "@type": "@id",
-      "description": "link to sustainability report."
+      "description": "Share of cobalt recovered from battery manufacturing waste present in active materials for each battery model per year and per manufacturing plant."
+    },
+    "preConsumerRecycledLithiumShare": {
+      "@id": "https://schema.org/Number", 
+      "@type": "@id",
+      "description": "Share of lithium recovered from battery manufacturing waste present in active materials for each battery model per year and per manufacturing plant."
     },
     "postConsumerRecycledCobaltShare": {
       "@id": "https://schema.org/Number", 
       "@type": "@id",
-      "description": "link to sustainability report."
+      "description": "Share of cobalt recovered from post-consumer waste present in active materials for each battery model per year and per manufacturing plant."
+    },
+    "postConsumerRecycledLeadShare": {
+      "@id": "https://schema.org/Number", 
+      "@type": "@id",
+      "description": "Share of lead recovered from waste present in the battery, for each battery model per year and per manufacturing plant."
+    },
+    "renewableContentShare": {
+      "@id": "https://schema.org/Number", 
+      "@type": "@id",
+      "description": "Share of renewable content in the battery."
+    },
+    "roleEndUsersContributingWastePrevention": {
+      "@id": "https://schema.org/url", 
+      "@type": "@id",
+      "description": "URI to the document about the role of end-users in contributing to waste prevention, including by information on good practices and recommendations concerning the use of batteries aiming at extending their use phase and the possibilities of re-use, preparing for re-use, preparing for repurpose, repurposing and remanufacturing."
+    },
+    "roleEndUsersContributingCollectionWasteBatteries": {
+      "@id": "https://schema.org/url", 
+      "@type": "@id",
+      "description": "URI to the document about the role of end-users in contributing to the separate collection of waste batteries.."
+    },
+    "infoCollectionTakebackReuseRepurposingRecycling": {
+      "@id": "https://schema.org/url", 
+      "@type": "@id",
+      "description": "URI to the document about the  separate collection, take-back and collection points, preparing for re-use, preparing for repurposing, and recycling operations available for waste batteries."
     }
 }
