@@ -284,5 +284,10 @@
       "@id": "https://schema.org/url", 
       "@type": "@id",
       "description": "URI to the document about the  separate collection, take-back and collection points, preparing for re-use, preparing for repurposing, and recycling operations available for waste batteries."
+    },
+    "manualBatteryDisassemblyDismantling": {
+      "@id": "https://schema.org/url", 
+      "@type": "@id",
+      "description": "URI to the manual for dismantling of battery pack. The same attribute as ID #C7-2."
     }
 }
