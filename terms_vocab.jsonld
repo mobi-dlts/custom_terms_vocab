@@ -289,5 +289,10 @@
       "@id": "https://schema.org/url", 
       "@type": "@id",
       "description": "URI to the manual for dismantling of battery pack. The same attribute as ID #C7-2."
+    },
+    "numberOfCells": {
+      "@id": "https://schema.org/Number", 
+      "@type": "@id",
+      "description": "Total number of cells in the pack."
     }
 }
