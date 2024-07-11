@@ -45,7 +45,7 @@
         "@type": "@id",
         "description": "Maximum voltage the battery is rated for. Unit of Measure is Volt."
     },
-     "originalPowerCapability": {
+    "originalPowerCapability": {
         "@id": "https://schema.org/Integer", 
         "@type": "@id",
         "description": "Original power capability (in Watts) and limits, with temperature range when relevant. Unit of Measure is Watt."
@@ -294,5 +294,10 @@
       "@id": "https://schema.org/Number", 
       "@type": "@id",
       "description": "Total number of cells in the pack."
+    },
+    "currentOwner": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas/Entity.json",
+      "@type": "@id",
+      "description": "The current owner information."
     }
 }
