@@ -299,5 +299,10 @@
       "@id": "https://dlt.mobi/mobility-schema/schemas/Entity.json",
       "@type": "@id",
       "description": "The current owner information."
+    },
+    "jurisdiction": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas/Entity.json",
+      "@type": "@id",
+      "description": "The jurisdictional entity information."
     }
 }
