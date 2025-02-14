@@ -311,7 +311,7 @@
       "description": "The jurisdictional entity information."
     },
     "safetyMeasuresInstructions": {
-      "@id": "https://dlt.mobi/mobility-schema/schemas/postalAddressSparePartsSources.json",
+      "@id": "https://dlt.mobi/mobility-schema/schemas/safetyMeasuresInstructions.json",
       "@type": "@id",
       "description": "The jurisdictional entity information."
     },
