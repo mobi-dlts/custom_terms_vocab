@@ -304,5 +304,22 @@
       "@id": "https://dlt.mobi/mobility-schema/schemas/Entity.json",
       "@type": "@id",
       "description": "The jurisdictional entity information."
+    },
+    "manualBatteryRemoval": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas/manualBatteryRemoval.json",
+      "@type": "@id",
+      "description": "The jurisdictional entity information."
+    },
+    "safetyMeasuresInstructions": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas/postalAddressSparePartsSources.json",
+      "@type": "@id",
+      "description": "The jurisdictional entity information."
+    },
+    "componentsPartNumbers": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas/componentsPartNumbers.json",
+      "@type": "@id",
+      "description": "The jurisdictional entity information."
     }
+   
+  
 }
