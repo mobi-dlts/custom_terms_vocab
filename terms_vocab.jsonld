@@ -315,8 +315,18 @@
       "@type": "@id",
       "description": "The jurisdictional entity information."
     },
-    "componentsPartNumbers": {
-      "@id": "https://dlt.mobi/mobility-schema/schemas/componentsPartNumbers.json",
+    "postConsumerRecycledLithiumShare": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas/postConsumerRecycledLithiumShare.json",
+      "@type": "@id",
+      "description": "The jurisdictional entity information."
+    },
+    "postConsumerRecycledNickelShare": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas/postConsumerRecycledNickelShare.json",
+      "@type": "@id",
+      "description": "The jurisdictional entity information."
+    },
+    "preConsumerRecycledLeadShare": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas/preConsumerRecycledLeadShare.json",
       "@type": "@id",
       "description": "The jurisdictional entity information."
     }
