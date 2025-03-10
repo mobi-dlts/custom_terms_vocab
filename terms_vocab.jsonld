@@ -329,6 +329,11 @@
       "@id": "https://dlt.mobi/mobility-schema/schemas/preConsumerRecycledLeadShare.json",
       "@type": "@id",
       "description": "The jurisdictional entity information."
+    },
+    "batteryPuttingIntoServiceDate": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas/batteryPuttingIntoServiceDate.json",
+      "@type": "@id",
+      "description": "The jurisdictional entity information."
     }
    
   
