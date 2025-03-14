@@ -330,11 +330,12 @@
       "@type": "@id",
       "description": "The jurisdictional entity information."
     },
-    "batteryPuttingIntoServiceDate": {
-      "@id": "https://dlt.mobi/mobility-schema/schemas/batteryPuttingIntoServiceDate.json",
+    "euComplianceTestResultsReport": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas/euComplianceTestResultsReport.json",
       "@type": "@id",
       "description": "The jurisdictional entity information."
     }
+
    
   
 }
