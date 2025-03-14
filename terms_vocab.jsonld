@@ -334,8 +334,16 @@
       "@id": "https://dlt.mobi/mobility-schema/schemas/euComplianceTestResultsReport.json",
       "@type": "@id",
       "description": "The jurisdictional entity information."
+    },
+    "lifeCycleStatus": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas/lifeCycleStatus.json",
+      "@type": "@id",
+      "description": "The jurisdictional entity information."
+    },
+    "bmsSoftwareVersion": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas/bmsSoftwareVersion.json",
+      "@type": "@id",
+      "description": "The jurisdictional entity information."
     }
-
-   
   
 }
