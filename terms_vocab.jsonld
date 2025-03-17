@@ -345,8 +345,13 @@
       "@type": "@id",
       "description": "The jurisdictional entity information."
     },
-    "componentsPartNumbers": {
-      "@id": "https://dlt.mobi/mobility-schema/schemas/componentsPartNumbers.json",
+    "safeDisposalInformation": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas/safeDisposalInformation.json",
+      "@type": "@id",
+      "description": "The jurisdictional entity information."
+    },
+    "safetyOrRecallInfo": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas/safetyOrRecallInfo.json",
       "@type": "@id",
       "description": "The jurisdictional entity information."
     }
